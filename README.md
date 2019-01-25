@@ -1,2 +1,2 @@
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/penx/base-react-component.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/penx/react-merge-values.svg)](https://greenkeeper.io/)
