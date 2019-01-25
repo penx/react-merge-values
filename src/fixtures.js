@@ -5,23 +5,23 @@ import MergeValues from ".";
 export const Uncontrolled = ({ onChange }) => (
   <MergeValues onChange={onChange} keys={["day", "month", "year"]}>
     {inputs => (
-      <>
+      <form title="Form">
         <div>
           <label>
-            Day: <input {...inputs.day} />
+            Day: <input name="day" {...inputs.day} />
           </label>
         </div>
         <div>
           <label>
-            Month: <input {...inputs.month} />
+            Month: <input name="month" {...inputs.month} />
           </label>
         </div>
         <div>
           <label>
-            Year: <input {...inputs.year} />
+            Year: <input name="year" {...inputs.year} />
           </label>
         </div>
-      </>
+      </form>
     )}
   </MergeValues>
 );
