@@ -1,6 +1,6 @@
 {
   "name": "react-merge-values",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component that merges the values and onChange events of several inputs",
   "main": "lib/index.js",
   "module": "es/index.js",
