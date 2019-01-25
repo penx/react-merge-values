@@ -2,8 +2,8 @@
 import React from "react";
 import MergeValues from ".";
 
-export const uncontrolled = (
-  <MergeValues onChange={e => null} keys={["day", "month", "year"]}>
+export const Uncontrolled = ({ onChange }) => (
+  <MergeValues onChange={onChange} keys={["day", "month", "year"]}>
     {inputs => (
       <>
         <div>
