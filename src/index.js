@@ -27,17 +27,18 @@ class MergeValues extends React.Component<Props> {
     const { onChange } = this.props;
     if (this.isControlled()) {
       const { value } = this.props;
-      onChange({
-        ...value,
-        [key]: val
-      });
+      onChange &&
+        onChange({
+          ...value,
+          [key]: val
+        });
     } else {
       this.setState(prevState => {
         const newValue = {
           ...prevState.value,
           [key]: val
         };
-        onChange(newValue);
+        onChange && onChange(newValue);
         return {
           value: newValue
         };
